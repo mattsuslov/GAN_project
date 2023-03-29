@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}" />
+    <title>Hello world</title>
+</head>
+<body>
+<header>
+    <div class="header"><h1>Web interface</h1></div>
+</header>
+<div>
+   <table width="100%">
+    <tr>
+        <td>
+            <div class="face">
+              <img src="{% static 'face.png' %}">
+            </div>
+        </td>
+        <td>
+            <div class="editor">  
+                <table>
+                    <tr>
+                        <h3>Размер носа</h3>
+                        <button>^</button>
+                        <button>V</button>
+                        <hr>
+                    </tr>
+                    <tr>
+                        <h3>Счастье</h3>
+                        <button>^</button>
+                        <button>V</button>
+                        <hr>
+                    </tr>
+                    <tr>
+                        <h3>Агрессия</h3>
+                        <button>^</button>
+                        <button>V</button>
+                    </tr>
+                </table>
+              
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+<div class="statusbar">status</div>
+
+<div class="logger">
+    <textarea>Логгер</textarea>
+</div>
+</body>
+</html>

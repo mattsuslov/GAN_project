@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #444;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    margin-top: 0;
+    font-size:18px;
+    color:white;
+}
+
+img {
+    border: 1px solid white;
+    max-width: 100%;
+}
+
+header {
+    background-color: black;
+    margin-bottom: 1%;
+}
+
+.face  {
+    max-width: 50%;
+}
+
+.editor {
+    width: 50%;
+}
+
+td {
+    width: 70%;
+}
+
+textarea {
+    width: 100%;
+}
